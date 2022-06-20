@@ -39,6 +39,7 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<version>1.18.24</version>
+			<scope>provided</scope>
 		</dependency>
 
 		<!-- This is NOT used anywhere in Foundation, only here to prevent compile 
@@ -55,6 +56,7 @@
 			<groupId>org.spigotmc</groupId>
 			<artifactId>spigot-api</artifactId>
 			<version>1.19.2-R0.1-SNAPSHOT</version>
+			<scope>provided</scope>
 		</dependency>
 		
 		<!-- MineAcademy guaranteed availability repos for plugins -->
@@ -62,101 +64,121 @@
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>AuthMe</artifactId>
 			<version>5.6.0-SNAPSHOT-2530</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>CitizensAPI</artifactId>
 			<version>2.0.29-b839</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>CMI-API</artifactId>
 			<version>9.0.0.0</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>DiscordSRV</artifactId>
 			<version>1.26.0-SNAPSHOT-0824719</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>EssentialsX</artifactId>
 			<version>2.20.0-SNAPSHOT-1375</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>Factions</artifactId>
 			<version>3.3.3</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>FactionsUUID</artifactId>
 			<version>1.6.9.5-U0.6.11-b287</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>MassiveCore</artifactId>
 			<version>3.3.3</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>mcMMO</artifactId>
 			<version>2.1.213</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>Multiverse-Core</artifactId>
 			<version>4.3.2-SNAPSHOT-870</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>NuVotifier</artifactId>
 			<version>2.7.3</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>PlaceholderAPI</artifactId>
 			<version>2.11.1</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>ProtocolLib</artifactId>
 			<version>5.0.0-SNAPSHOT-586</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>Residence</artifactId>
 			<version>5.0.1.6</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>SimpleClans</artifactId>
 			<version>2.16.2-SNAPSHOT-283</version>
-		</dependency>	
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>Towny</artifactId>
 			<version>0.98.1.12</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>TownyChat</artifactId>
 			<version>0.96</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>Vault</artifactId>
 			<version>1.7.3</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>WorldEdit</artifactId>
 			<version>7.2.10</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mineacademy.plugin</groupId>
 			<artifactId>WorldGuard</artifactId>
 			<version>7.0.7</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 	<build>
