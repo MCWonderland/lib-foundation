@@ -32,6 +32,13 @@
 		</repository>
 	</repositories>
 
+	<distributionManagement>
+		<repository>
+			<id>naluwan</id>
+			<url>https://repo.naluwan.net/snapshot</url>
+		</repository>
+	</distributionManagement>
+
 	<dependencies>
 	
 		<!-- Lombok -->
