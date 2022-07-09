@@ -1,7 +1,7 @@
 package org.mineacademy.fo.model;
 
+import github.scarsz.discordsrv.dependencies.commons.lang3.StringUtils;
 import lombok.Getter;
-import org.apache.commons.lang.StringUtils;
 import org.mineacademy.fo.TimeUtil;
 
 import java.util.ArrayList;
