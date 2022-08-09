@@ -233,7 +233,7 @@ public final class ChatUtil {
 		return capitalizeFully(str, (char[]) null);
 	}
 
-	private static String capitalizeFully(String str, char[] delimiters) {
+	public static String capitalizeFully(String str, char[] delimiters) {
 		final int delimLen = delimiters == null ? -1 : delimiters.length;
 
 		if (str != null && str.length() != 0 && delimLen != 0) {
