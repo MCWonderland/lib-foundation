@@ -74,7 +74,7 @@ public abstract class Tool {
 	/**
 	 * Create a new tool
 	 */
-	protected Tool() {
+	protected Tool(boolean lazy) {
 
 		// A hacky way of automatically registering it AFTER the parent constructor, assuming all went okay
 		new Thread(() -> {
@@ -87,9 +87,13 @@ public abstract class Tool {
 
 			final Tool instance = Tool.this;
 
-			if (!isRegistered(instance))
+			if (!lazy && !isRegistered(instance))
 				register(instance);
 		}).start();
+	}
+
+	protected Tool() {
+		this(false);
 	}
 
 	/**
