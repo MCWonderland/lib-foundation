@@ -28,7 +28,7 @@ public abstract class Tool {
 	 *
 	 * @param tool the tool
 	 */
-	static synchronized void register(Tool tool) {
+	protected static synchronized void register(Tool tool) {
 		Valid.checkBoolean(!isRegistered(tool), "Tool with itemstack " + tool.getItem() + " already registered");
 
 		tools.add(tool);
